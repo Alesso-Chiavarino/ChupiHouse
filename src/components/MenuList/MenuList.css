@@ -1,0 +1,39 @@
+.hola {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    /* background-color: #202020 !important; */
+    /* border: none;X
+    color: #fff;
+    z-index: 5000;
+    display: inline-block; */
+}
+
+
+/* .hola:hover {
+    color: red;
+    background-color: aqua;
+} */
+.hola:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(21, 99, 53);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+
+}
+
+.hola:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;}
+    
+    .hola:active {
+        background-color: rgb(23, 80, 53);}

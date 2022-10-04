@@ -1,0 +1,7 @@
+.navBar {
+    box-shadow: 0px 10px 15px -10px rgb(0 0 0 / 75%);
+    /* z-index: 800; */
+    /* background-color: #3f2b39 !important; */
+    background-color: #1D000D !important;
+    height: 110px;
+}
